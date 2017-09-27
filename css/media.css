@@ -1,0 +1,145 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.carousel img {
+		max-width: 90%;
+	}
+	.box_5 textarea[type="text"]{
+		margin-bottom: 10px;
+	}
+	.info_form p {
+		padding-bottom: 10px;
+	}
+	.info_form .mail {
+		padding-bottom: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.menu ul {
+		display: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		z-index: 10;
+		background-color: #2d303a;
+		top: 95px;
+		padding-bottom: 5px;
+	}
+	.menu li {
+		display: block;
+		padding-right: 0;
+	}
+	.menu li:after {
+		content: "";
+	}
+	.menu a {
+		padding: 5px 0;
+		display: block;
+		transition: all .3s;
+	}
+	.menu li a:hover {
+		background-color: #323746;
+	}
+	.btn_menu {
+		display: block;
+	}
+	.mymix .col-xs-6 {
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+	.box_4 .portfolio {
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width : 640px) {
+	.carousel img {
+		max-width: 100%;
+	}
+	.carousel .owl-prev,
+	.carousel .owl-next {
+		display: none;
+	}
+	.mymix .col-xs-6 {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+		
+	}
+	.mymix .col-xs-6 img {
+		max-width: 100%;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.box_3 .col-md-12.btn {
+		text-align: center;
+	}
+	.box_4 .portfolio img {
+		max-width: 100%;
+	}
+	footer .text {
+		display: inline-block;
+	}
+	footer .icons {
+		display: inline-block;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 440px) {
+	footer {
+		text-align: center;
+		height: 100%
+	}
+	footer .icons {
+		float: none;
+		padding-top: 5px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+	.menu ul {
+		display: block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
